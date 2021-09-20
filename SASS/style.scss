@@ -272,19 +272,19 @@ div.video {
         }
         div.video__embebido {
             iframe{
-                width: 410px;
+                width:410px;
             }     
         }
     }    
 }
-@media (min-width: 450px) and (max-width: 576px) { 
+@media (min-width: 451px) and (max-width: 576px) { 
     div.video{
         h3{
             font-size: 22px;
         }
         div.video__embebido {
             iframe{
-                width: 500px;
+                width: 450px;
             }     
         }
     }    
