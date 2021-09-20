@@ -1,0 +1,926 @@
+* {
+    margin: "0";
+    padding: "0";
+    font-family: 'Questrial', normal;
+    list-style: none;
+}
+/* Variables */
+
+$naranja-energe:#d67c30;
+$gris-energe:#57575a;
+$ancho-cajas-mobile: 480px;
+$energ-chico:120;
+$energ-mediano:240;
+$energ-grande: 370K;
+
+
+
+
+/* ------------------------------------------------ */
+/* Página 1-Index */
+/* Bloque 1 Encabezado de página*/
+
+header {
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            border: #d67c30 solid 1px;
+                div.container-fluid{
+                    div#navbarTogglerDemo02.collapse.navbar-collapse{
+                        ul.navbar-nav.ms-auto{
+                            li.nav-item{
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                a.nav-link.active{
+                                    color: $gris-energe;
+                                }
+                                a.nav-link{
+                                    color: $naranja-energe;
+                                }
+                                a.nav-link:hover{
+                                    color: #ffffff;
+                                    background-color: $naranja-energe;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+        }            
+}
+/* Bloque 2 Portada */
+
+/* Bloque 3 Texto + imagen */
+div.clearfix {
+    h3.m-5{
+        color: $naranja-energe;
+    }
+}
+@media (max-width: 451px) { 
+    img.col-md-4.float-md-end.mb-3.ms-md-3{
+        width: 450px;
+    } 
+}    
+
+
+/* Bloque 4 Soluciones ofrecidas */
+
+div.soluciones {
+    background-color: #e9e9e9;
+    color: $gris-energe;
+    padding: 30px;
+
+            
+            div.soluciones__titulo {
+            text-align: center;
+            padding: 10px 0px 20px 0px;
+            color: $naranja-energe;
+                p{
+                    color: $gris-energe;
+                }
+            }
+        
+            div.soluciones__tipos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            padding: 20px 5px 20px 5px;
+                h3{
+                    color:$naranja-energe;
+                }
+            
+                    div.soluciones__tipos--domestico{
+                        border: $naranja-energe solid 1px;
+                        width: 630px;
+                        padding: 20px;
+                        margin: 5px;
+                    }
+                    div.soluciones__tipos--domestico:hover{
+                        background-color: rgba(228, 109, 11, 0.295);
+                    }
+                    div.soluciones__tipos--industrial{
+                        border: $naranja-energe  1px solid;
+                        width: $ancho-cajas-mobile+120; /* Acá apliqué un ej de Operaciones de acuerdo a la variable Width */
+                        padding: 20px;
+                        margin: 5px;
+                    }
+                    div.soluciones__tipos--industrial:hover{
+                        background-color: rgba(228, 109, 11, 0.295);
+                    }
+                    div.soluciones__tipos--parque{
+                        border:$naranja-energe  1px solid;
+                        width: 630px;
+                        padding: 20px;
+                        margin: 5px;
+                    }
+                    div.soluciones__tipos--parque:hover{
+                        background-color: rgba(228, 109, 11, 0.295);
+                    }
+                }
+}
+@media (max-width: 450px) { 
+    div.soluciones {
+        padding: 0px;
+                
+                div.soluciones__titulo {
+                text-align: center;
+                }
+            
+                div.soluciones__tipos {
+                display: flex;
+                flex-direction: column;
+                align-items:  center;
+                text-align: center;
+                padding: 20px 10px 20px 10px;
+                    
+                        div.soluciones__tipos--domestico{
+                            width: 400px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--industrial{
+                            width: 400px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--parque{
+                            width: 400px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                    }
+                }
+}
+@media (min-width: 450px) and (max-width: 576px) { 
+    div.soluciones {
+        padding: 0px;
+                
+                div.soluciones__titulo {
+                text-align: center;
+                }
+            
+                div.soluciones__tipos {
+                display: flex;
+                flex-direction: column;
+                align-items:  center;
+                text-align: center;
+                padding: 20px 10px 20px 10px;
+                    
+                        div.soluciones__tipos--domestico{
+                            width: $ancho-cajas-mobile;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--industrial{
+                            width: $ancho-cajas-mobile;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--parque{
+                            width: $ancho-cajas-mobile;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                    }
+                }
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.soluciones {
+        padding: 30px;           
+                div.soluciones__tipos {
+                display: flex;
+                flex-direction: column;
+                align-items:  center;
+                text-align: center;
+                padding: 20px 10px 20px 10px;
+                    
+                        div.soluciones__tipos--domestico{
+                            width: 680px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--industrial{
+                            width: 680px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                        div.soluciones__tipos--parque{
+                            width: 680px;
+                            padding: 20px;
+                            margin: 5px;
+                        }
+                    }
+                }
+}
+/* Bloque 5 Banner con tipo de productos*/
+/* Bloque 6 Proyectos */
+
+div.col {
+
+        div.card.col-md-12.m-1{
+            border: $naranja-energe solid 1px;
+        }
+        h5.card-title {
+            color: $naranja-energe;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+
+}
+
+/* Bloque 7 Banner con Aviso ambiental */
+div.card.text-center.m-5{
+    background-color: rgb(241, 241, 241);
+    div.card-header{
+        background-color: $naranja-energe;
+        color: #ffffff;
+    }
+    div.card-body{                        
+        h5.card-title{
+            color:$naranja-energe;
+            font-size: 20px;
+        }
+        p.card-text{
+            color: gray;
+        }
+    }
+    div.card-footer{
+        background-color: $naranja-energe;
+        color: white;
+    }    
+    
+}
+/* Bloque 6 Video Informativo */
+div.video {
+    background-color: $naranja-energe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+        h3 {
+            color: white;
+            padding: 20px;
+        }
+        div.video__embebido {
+            width: auto;
+        }
+}
+@media (max-width: 450px) { 
+    div.video{
+        h3{
+            font-size: 20px;
+        }
+        div.video__embebido {
+            iframe{
+                width: 410px;
+            }     
+        }
+    }    
+}
+@media (min-width: 450px) and (max-width: 576px) { 
+    div.video{
+        h3{
+            font-size: 22px;
+        }
+        div.video__embebido {
+            iframe{
+                width: 500px;
+            }     
+        }
+    }    
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.video{
+        h3{
+            font-size: 22px;
+        }
+        div.video__embebido {
+            iframe{
+                width: 600px;
+            }     
+        }
+    }    
+}
+/* Bloque 9 Caja de información */
+
+div.bloque__inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(/img/fondo-es-banner.jpg);
+    div.bloque__inform--accordion.col-md-6 {
+        margin: 10px;
+        padding: 40px;
+        div.accordion{
+            div.accordion-item{
+                h2.accordion-header{
+                    button.accordion-button {
+                        color:white;
+                        background-color: $naranja-energe;
+                    }
+                    button.accordion-button.collapsed {
+                        color:white;
+                        background-color: $naranja-energe;
+                        border-color: orange;
+                    }
+                    button.accordion-button::after {
+                        background-color: $naranja-energe;
+                        color: white;
+                        border-color: $naranja-energe;
+                    } 
+                }
+            }
+            div.accordion-item:not(.collapsed){
+                border:  white  solid 1px;
+            }
+        }    
+    } 
+}
+@media (max-width: 450px) { 
+    div.bloque__inform{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }    
+}
+@media (min-width: 450px) and (max-width: 576px) { 
+    div.bloque__inform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.bloque__inform--imagen {
+            width: 450px;
+        }  
+    }    
+}
+@media (min-width: 577px) and (max-width: 768px) { 
+    div.bloque__inform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.bloque__inform--imagen {
+            width: 600px;
+        }
+    }
+}  
+    
+/* Bloque 10 Formulario de contacto */
+form.row.g-3.p-5.m-0.text-white{
+    background-color: $naranja-energe;
+}
+
+/* Bloque 11 Footer */
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 40px 10px 20px 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    
+        div.footer__redes {
+            padding: 15px;
+            text-align: center;
+        }
+        div.footer__redes a{
+            padding: 5px;
+        }
+        div.footer__contacto {
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 120px;
+        }
+}
+@media (max-width: 576px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        div.footer__contacto {
+            text-align: center;
+            margin: 15px;
+        }
+    }
+}
+@media (min-width: 577px) and (max-width:768px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        div.footer__contacto {
+            text-align: center;
+            margin: 15px;
+        }
+    }
+}
+
+/* ------------------------------------------------ */
+/* Página 2 Nosotros */
+
+/* Bloque 1 Header */
+/* Bloque 2 Portada */
+div.portada {
+    background-image: url(/img/Portada-servicios.jpg);
+    text-align: center;
+    padding: 130px 30px 130px 30px;
+
+    h1{
+        font-size: 30px;
+        color: $naranja-energe;
+    }
+    p{
+        color: $gris-energe;
+    }
+}
+@media (max-width: 576px){
+    footer {
+        padding: 100px 10px 100px 10px;
+    }
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.portada {
+        padding: 100px 10px 100px 10px;
+    }
+}
+/* Bloque 3 Historia */
+div.historia{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    div.row.row-cols-2{
+        background-color: rgb(228, 228, 228);
+        div.col.col-md-3{
+            border: $naranja-energe solid 1px;
+            padding:10px;
+            color: $gris-energe;
+            text-align: center;
+        }
+        div.col.col-md-9{
+            border: $naranja-energe solid 1px;
+            padding:10px;
+            color: gray;
+            
+        }
+        div#container__titularB.col.col-md-9{
+            border: rgb(224, 224, 224) solid 1px;
+            background-color: $naranja-energe;
+            color:#ffffff;
+            font-size: 20px;
+            text-align: center;
+        }
+        div#container__titularB.col.col-md-9:hover{
+            background-color: $gris-energe;
+            color:#ffffff;
+        }
+        div#container__titularA.col.col-md-3{
+            border: rgb(224, 224, 224) solid 1px;
+            background-color: $naranja-energe;
+            color:#ffffff;
+            font-size: 20px;
+            text-align: center;
+        }
+        div#container__titularA.col.col-md-3:hover{
+            background-color:$gris-energe;
+            color:#ffffff;
+        }
+    }
+}
+/* Bloque 4 Fotos Obras */
+div.contenedor{
+    background-color:$naranja-energe;
+    padding: 20px 10px 40px 10px;
+
+    div.contenedor__texto {
+        text-align: center;
+        color: white;   
+        padding-top: 20px; 
+    }
+    div.contenedor__imagen {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img {
+            margin: 5px;
+        }
+        img:hover {
+            transform: translate(2px, 2px);
+        }
+    }
+}
+@media (max-width: 450px) {
+    div.contenedor{
+        div.contenedor__imagen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 410px;
+                margin: 5px;
+            }
+        }
+    }
+}    
+
+@media (min-width: 450px) and (max-width: 576px) {
+    div.contenedor{
+        div.contenedor__imagen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 450px;
+                margin: 5px;
+            }
+        }
+    }
+}     
+
+@media (min-width: 577px) and (max-width:768px){
+    div.contenedor{
+        div.contenedor__imagen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 590px;
+                margin: 5px;
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width:1200px){
+    div.contenedor{
+        div.contenedor__imagen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 590px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------ */
+/* Página 3 Productos  */  
+
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Productos */
+@each $consumo in chico,mediano,grande {  /* Aplicación de la regla @each */
+    div.producto{
+        div.producto__tipo{
+            div.#{$consumo}-logo{
+                background-image: url(/img/consumos/#{$consumo}.png);
+                width: 200px;
+                height: 40px;
+            }
+        } 
+    }       
+}
+
+.producto {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+        .producto__tipo {
+            border: $naranja-energe solid 1px;
+            width: 400px;
+            margin: 10px;
+            padding: 20px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 40px;
+            
+                p{
+                text-align: center;
+                color: $naranja-energe;
+            }
+                li.producto__tipo--caracteristicas{
+                    color: $gris-energe;
+                    font-size: 15px;
+                    text-align: center;
+                }
+        }
+        .producto__tipo:hover {
+            background-color: rgba(241, 125, 30, 0.123);
+            width: 420px;
+            
+        }         
+
+}
+
+/* Bloque 4 Llamada a la acción */
+div.call {
+    background-color: $naranja-energe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+    div.call__titulo h2{
+        color: white;
+    }
+    div.call__titulo p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    div.call__link button {
+        background-color: $gris-energe;
+        padding: 20px;
+        margin: 5px;
+        border-color: white 1px solid;
+    }
+    div.call__link button a{
+        color: white;
+        text-decoration: none;
+    }  
+}
+/* Bloque 5 Video de productos */    
+
+div.video__productos {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+        h3{
+            font-size: 30px;
+            color: white;
+        }
+}
+@media (max-width: 450px) {
+    div.video__productos {
+            h3{
+                font-size: 20px;
+            }
+            iframe{
+                width: 400px;
+            }
+    }
+}     
+@media (min-width: 451px) and (max-width: 576px) {
+    div.video__productos {
+        h3{
+            font-size: 20px;
+        }
+        iframe{
+            width: 450px;
+        }
+    }
+}     
+@media (min-width: 577px) and (max-width:768px){
+    div.video__productos {
+        h3{
+            font-size: 30px;
+        }
+        iframe{
+            width: auto;
+        }
+    }
+}    
+
+/* Bloque 8 */
+
+/* ------------------------------------------------ */
+/* Página 4 Servicios  */  
+
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Atributos de la empresa */
+
+div.atributos{
+    background-color: $naranja-energe;
+    div.atributos__titulo{
+        text-align: center;
+        color: #ffffff;
+        padding: 35px 10px 25px 10px;
+    }
+    div.atributos__textos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px 10px 35px 10px;
+        div.atributos__bloques {
+            background-color: rgb(233, 233, 233);
+            padding: 20px;
+            margin: 10px;
+            color: $naranja-energe;
+        }
+        div.atributos__bloques:hover {
+            background-color: #414141;
+            color: rgb(233, 233, 233);
+            border: #e9e9e9 solid 1px;
+            transform: translate(0px,2px);
+        }
+    }    
+    div.atributos__imagenes {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: $naranja-energe;
+            img {
+                margin:10px;
+            }
+            img:hover {
+                transform: translate(0px,2px);
+            } 
+    }
+}
+@media (max-width: 576px){
+    div.atributos{
+        div.atributos__textos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div.atributos__imagenes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+            width: 410px;
+        }  
+    }   
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.atributos{
+        div.atributos__textos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div.atributos__imagenes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }    
+    }  
+}
+/* Bloque 4 Atributos secundarios de la empresa */
+div.atributosB {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    div.atributosB__elemento{
+        border: $naranja-energe solid 1px;
+        margin: 10px;
+        padding: 10px;
+        h3.atributoB__titulo{
+            color:$naranja-energe;
+            text-align: center;
+        }
+        p.atributoB__texto{
+            color: gray;
+        }
+
+    }
+    div.atributosB__elemento:hover{
+        background-color: #cccccc;   
+    }
+}
+@media (max-width: 576px){
+    div.atributosB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }   
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.atributosB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }  
+}
+/* ------------------------------------------------ */
+/* Página 5 Contacto  */  
+
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Formulario */
+div.formContacto.p-5{
+    background-color: $naranja-energe;
+    color: #ffffff;
+}
+/* Bloque 4 Mapas */
+div.mapas {
+    background-color: gray;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 10px 30px 10px;
+    div.mapas__provincias{
+        border: $naranja-energe solid 1px;
+        margin: 20px;
+        background-color: $naranja-energe;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            color:white;
+            text-align: center;
+            font-size: 18px;
+        }
+        div.mapas__contacto{
+            margin: 5px;
+        }
+    }    
+}
+@media (max-width: 400px){
+    div.mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.mapas__provincias {
+            width: 370px;
+            iframe{
+                width: 370px;
+            }    
+        }
+    }   
+}
+@media (min-width: 577px) and (max-width:768px){
+    div.mapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.mapas__provincias {
+            iframe{
+                width: 650px;
+            }
+        }
+    }  
+}
+/* Bloque 5 Ley de generación */
+
+$sedes: ( /*Declaro el  mapa*/
+        Mendoza:#48b81c,
+        Buenos-Aires:#48b81C,
+        San-Juan:#d35013,
+        La-Pampa: #48b81c,
+        Cordoba: #d35013,
+        Quilmes: #48b81c,
+); 
+/*Creo el bucle para usar los valores del mapa*/
+@each $sede, $color in $sedes {
+    div.leyGeneracion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+        background-color: $naranja-energe;
+        color: white;
+        div.leyGeneracion__titulo{
+            h2 {
+                font-size: 20px;
+            }
+        }    
+        div.leyGeneracion__provincias{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            li.btn--#{$sede} {
+                background-color: $color;
+                width: 400px;
+                margin: 15px;
+                
+            }    
+        } 
+    }            
+}
+@media (max-width: 576px){
+    div.leyGeneracion {
+        div.leyGeneracion__provincias{
+            display: flex;
+            flex-direction: column;
+            align-items: center;           
+        } 
+    }            
+}     
+
+@media (min-width: 577px) and (max-width:768px){
+    div.leyGeneracion {
+        div.leyGeneracion__provincias{
+            display: flex;
+            flex-direction: column;
+            align-items: center;           
+        } 
+    }  
+}

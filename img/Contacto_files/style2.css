@@ -1,0 +1,1335 @@
+/* Aplicamos reseteo inicial */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', normal;
+    list-style: none;
+
+}
+/* Página HOME */
+/* Estilos aplicados al Menú */
+/* SECCIÓN1 */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0.1px;
+    background-color: white;
+}    
+
+div.menu nav ul{
+    display: flex; 
+    flex-direction: row;  
+}
+
+div.menu nav ul li{
+    padding: 20px 5px;
+    margin: 20px;
+}
+div.menu nav ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+div.menu nav ul li a:hover{
+    color:#d67c30;
+}
+
+div.logo img {
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.menu {
+    color: gray;
+}
+
+/* SECCIÓN 2 */
+
+.portadaHome {
+    background-image: url("/img/Portada.png");
+    padding-top:100px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.portadaHome h1 {
+    color: white;
+    padding: 20px;
+}
+/* SECCIÓN 3 */
+.portadaInicial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+div.textoHome {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 850px;
+}
+div.textoHome h3{
+    padding: 20px;
+    color:#d67c30;
+    font-size: 25px;
+}
+div.textoHome p{
+    padding: 20px;
+    color: gray;
+    text-align: justify;
+} 
+/* SECCIÓN 4 */
+
+.solucionesHome {
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.tituloSoluciones {
+    text-align: center;
+    padding: 40px;
+}
+.tituloSoluciones h3 {
+    color: #d67c30;
+    font-size: 30px;
+    padding: 20px;
+}
+.tituloSoluciones p {
+    color: gray;
+    font-size: 18px;
+    padding: 10px;
+}     
+.soluciones {
+    display: grid;
+    grid-template-areas: 
+    "domestico industrial parque";
+    justify-content: center;
+    padding: 20px;
+}
+
+div.domestico {
+    grid-area: domestico;
+    margin: 10px;
+    border: #d67c30 1px solid;
+    padding: 20px;
+    text-align: center;
+}
+div.domestico:hover {
+    background-image: linear-gradient( rgb(223, 223, 223), rgb(150, 150, 150));
+}
+div.industrial:hover {
+    background-image: linear-gradient( rgb(223, 223, 223), rgb(150, 150, 150));
+}
+div.parque:hover {
+    background-image: linear-gradient( rgb(223, 223, 223), rgb(150, 150, 150));
+}
+div.industrial {
+    grid-area: industrial;
+    margin: 10px;
+    border: #d67c30 1px solid;
+    padding: 20px;
+    text-align: center;
+
+}
+div.parque {
+    grid-area: parque;
+    margin: 10px;
+    border: #d67c30 1px solid;
+    padding: 20px;
+    text-align: center;
+}
+.soluciones h3 {
+    color: #d67c30;
+    padding: 20px;
+    font-size: 22px;
+}
+.soluciones p {
+    color: gray;
+    padding: 20px;
+    font-size: 18px;
+}
+/* SECCIÓN 5 */
+div.areaProyectos {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 60px;
+}
+div.areaProyectos h3 {
+    text-align: center;
+    font-size: 25px;
+    color:#d67c30;
+    padding: 40px;
+}
+div.proyecto1 {
+    grid-area: proyecto1;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto2 {
+    grid-area: proyecto2;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto3 {
+    grid-area: proyecto3;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto4 {
+    grid-area: proyecto4;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto5 {
+    grid-area: proyecto5;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto6 {
+    grid-area: proyecto6;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+
+div.ultimosProyectos {
+    display: grid;
+    grid-template-areas: 
+    "proyecto1 proyecto2 proyecto3"
+    "proyecto4 proyecto5 proyecto6";
+    justify-content: center;
+    padding: 10px;
+}        
+/* SECCIÓN 6 */
+div.seccionVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#d67c30;
+    padding: 40px;
+}
+div.seccionVideo h3{
+color: white;
+font-size: 25px;
+padding-bottom: 25px;
+}
+div.seccionVideo ul li{
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* SECCCIÓN 7 */
+
+div.contactoHome {
+    background-color: rgb(122, 121, 121);
+    padding: 45px;
+    display: flex;
+    justify-content:space-between;
+}
+div.contactoHome h3{
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+}
+div.formulario {
+    margin: 20px;
+    width: 600px;
+}
+div.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+div.contactoHome form fieldset{
+    color: white;
+    padding: 35px;
+    font-size: 18px;
+}
+
+/* SECCIÓN 8 (Footer) */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+div.redesFooter a{
+    padding: 5px;
+}
+div.redesFooter {
+    padding: 15px;
+    text-align: center;
+}
+div.contactoFooter {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+/* Aplicación de estilo mobile para HOME */
+
+/* SECCIÓN 1 MOBILE */
+@media only screen and (max-width: 480px) {
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}    
+
+div.menu nav ul{
+    display: flex; 
+    flex-direction: row;  
+}
+
+div.menu nav ul li{
+    padding: 10px 5px;
+    margin: 10px;
+}
+/* SECCIÓN 2 MOBILE */
+/* SECCIÓN 3 MOBILE */
+.portadaInicial {
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+}
+div.textoHome {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 460px;
+}
+div.textoHome h3{
+    padding: 20px;
+    color:#d67c30;
+    font-size: 25px;
+    text-align: center;
+}
+div.textoHome p{
+    padding: 20px;
+    color: gray;
+    text-align: justify;
+}
+div.imgHome img {
+    width: 460px;
+    height: 400px;
+    margin-left: 30px;
+} 
+/* SECCIÓN 4 MOBILE */
+/* SECCIÓN 4 */
+
+.solucionesHome {
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.tituloSoluciones {
+    text-align: center;
+    padding: 40px;
+}
+.tituloSoluciones h3 {
+    color: #d67c30;
+    font-size: 30px;
+    padding: 20px;
+}
+.tituloSoluciones p {
+    color: gray;
+    font-size: 18px;
+    padding: 10px;
+}     
+.soluciones {
+    display: grid;
+    grid-template-areas: 
+    "domestico"
+    "industrial"
+    "parque";
+    justify-content: center;
+    padding: 20px;
+}
+/* SECCIÓN 5 MOBILE */
+
+div.areaProyectos {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+div.areaProyectos h3 {
+    text-align: center;
+    font-size: 25px;
+    color:#d67c30;
+    padding: 40px;
+}
+div.proyecto1 {
+    grid-area: proyecto1;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto2 {
+    grid-area: proyecto2;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto3 {
+    grid-area: proyecto3;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto4 {
+    grid-area: proyecto4;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto5 {
+    grid-area: proyecto5;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+div.proyecto6 {
+    grid-area: proyecto6;
+    padding: 20px;
+    text-align: center;
+    color: #d67c30;
+}
+
+div.ultimosProyectos {
+    display: grid;
+    grid-template-areas: 
+    "proyecto1" 
+    "proyecto2" 
+    "proyecto3"
+    "proyecto4" 
+    "proyecto5" 
+    "proyecto6";
+    justify-content: center;
+} 
+
+
+/* SECCIÓN 6 MOBILE */
+div.seccionVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#d67c30;
+    padding: 25px;
+}
+div.seccionVideo h3{
+color: white;
+font-size: 25px;
+padding-bottom: 25px;
+}
+div.seccionVideo ul li{
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+div.videoHome iframe{
+    width: 470px;
+    height: 400px;
+} 
+/* SECCCIÓN 7 MOBILE*/
+
+div.contactoHome {
+    background-color: rgb(122, 121, 121);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+div.contactoHome h3{
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+}
+div.formulario {
+    margin: 10px;
+    width: 440px;
+}
+div.formulario select {
+    background-color: white;
+}
+div.formulario input {
+    background-color: white;
+}
+div.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.mapa iframe {
+    width: 450px;
+    height: 400px;
+}     
+
+
+/* SECCIÓN 8 (Footer) MOBILE */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+div.redesFooter a{
+    padding: 5px;  
+}
+
+div.contactoFooter {
+    margin:0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+}
+
+/* Aplicación de estilo TABLET para HOME */
+
+/* SECCIÓN 1 TABLET */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }    
+    
+    div.menu nav ul{
+        display: flex; 
+        flex-direction: row;  
+    }
+    
+    div.menu nav ul li{
+        padding: 10px 5px;
+        margin: 10px;
+    }
+    /* SECCIÓN 2 TABLET */
+    /* SECCIÓN 3 TABLET */
+    .portadaInicial {
+        display: block;
+        align-items: center;
+        margin-top: 20px;
+    }
+    div.textoHome {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        width: 700px;
+    }
+    div.textoHome h3{
+        padding: 20px;
+        color:#d67c30;
+        font-size: 25px;
+        text-align: center;
+    }
+    div.textoHome p{
+        padding: 20px;
+        color: gray;
+        text-align: justify;
+    }
+    div.imgHome img {
+        width: 550px;
+        height: auto;
+        margin-left: 120px;
+    } 
+    /* SECCIÓN 4 TABLET */
+    
+    .solucionesHome {
+        background-color: rgb(240, 240, 240);
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .tituloSoluciones {
+        text-align: center;
+        padding: 40px;
+    }
+    .tituloSoluciones h3 {
+        color: #d67c30;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .tituloSoluciones p {
+        color: gray;
+        font-size: 18px;
+        padding: 10px;
+    }     
+    .soluciones {
+        display: grid;
+        grid-template-areas: 
+        "domestico"
+        "industrial"
+        "parque";
+        justify-content: center;
+        padding: 20px;
+    }
+    /* SECCIÓN 5 TABLET */
+    
+    div.areaProyectos {
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 30px;
+    }
+    div.areaProyectos h3 {
+        text-align: center;
+        font-size: 25px;
+        color:#d67c30;
+        padding: 40px;
+    }
+    div.proyecto1 {
+        grid-area: proyecto1;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    div.proyecto2 {
+        grid-area: proyecto2;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    div.proyecto3 {
+        grid-area: proyecto3;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    div.proyecto4 {
+        grid-area: proyecto4;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    div.proyecto5 {
+        grid-area: proyecto5;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    div.proyecto6 {
+        grid-area: proyecto6;
+        padding: 20px;
+        text-align: center;
+        color: #d67c30;
+    }
+    
+    div.ultimosProyectos {
+        display: grid;
+        grid-template-areas: 
+        "proyecto1 proyecto2"
+        "proyecto3 proyecto4"
+        "proyecto5 proyecto6";
+        justify-content: center;
+    } 
+    
+    
+    /* SECCIÓN 6 TABLET */
+    div.seccionVideo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#d67c30;
+        padding: 25px;
+    }
+    div.seccionVideo h3{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+    }
+    div.seccionVideo ul li{
+        color: white;
+        font-size: 20px;
+        padding: 25px;
+        text-align: center;
+    }
+    div.videoHome iframe{
+        width: 670px;
+        height: 400px;
+    } 
+    /* SECCCIÓN 7 TABLET*/
+    
+    div.contactoHome {
+        background-color: rgb(122, 121, 121);
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    div.contactoHome h3{
+        color: white;
+        font-size: 25px;
+        padding: 30px;
+    }
+    div.formulario {
+        margin: 10px;
+        width: 720px;
+    }
+    div.formulario select {
+        background-color: white;
+    }
+    div.formulario input {
+        background-color: white;
+    }
+    div.mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    div.mapa iframe {
+        width: 650px;
+        height: 400px;
+    }     
+    
+    
+    /* SECCIÓN 8 (Footer) TABLET */
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        line-height: 40px;
+        background-color: rgb(32, 32, 32);
+        color: white;
+    }
+    
+    div.redesFooter a{
+        padding: 5px;  
+    }
+    
+    }
+    div.contactoFooter {
+        margin:0px;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    
+/* ---------------Página Nosotros------------ */
+/* Versión Desktop */
+/* SECCIÓN 1  */
+/* SECCIÓN 2 */
+
+.portadaSecciones {
+    background-image: url("/img/Portada-servicios.jpg");
+    padding-top:100px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.portadaSecciones h1{
+    color: #d67c30;
+    padding: 20px;
+}
+.portadaSecciones p{
+    color: gray;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 25px;
+}
+
+/* SECCIÓN 3 */
+
+div.historia {
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo" 
+    "historia1 historia2 historia2"
+    "hitos sucesos sucesos";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 50px 120px 30px 120px;
+    background-color: #d67c30;
+}
+
+.tituloHistoria {
+    grid-area: titulo;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+.encabezadoHistoria1 {
+    grid-area: historia1;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    color: gray;
+    background-color: white;
+}
+
+.encabezadoHistoria2 {
+    grid-area: historia2;
+    margin-left: 40px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+
+.hitos {
+    grid-area: hitos;
+    text-align: center;
+    line-height: 40px;
+    border: rgb(226, 226, 226) 1px solid;
+    margin: 10px;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+    
+}
+.sucesos {
+    grid-area: sucesos;
+    padding-left: 50px;
+    margin: 10px;
+    line-height: 40px;
+    border: white 1px solid;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+}
+
+/* SECCIÓN 4 */
+div.imagenesNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom:120px;
+    background-color: rgb(207, 207, 207);
+}
+
+.tituloImagenNosotros {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    color: #d67c30;
+}
+/* SECCIÓN 5 (Footer) */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+div.redesFooter a{
+    padding: 5px;
+}
+div.redesFooter {
+    padding: 15px;
+    text-align: center;
+}
+div.contactoFooter {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+/* Aplicación del estrilo MOBILE para página Nosotros */
+/* PAGINA NOSOTROS-SECCIÓN 1 MOBILE */
+@media only screen and (max-width: 480px) {
+    
+/* SECCIÓN 2 MOBILE */
+.portadaSecciones p {
+    margin: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;  
+}
+
+/* SECCIÓN 3 MOBILE */
+
+div.historia {
+    display: grid;
+    grid-template-areas:
+    "titulo titulo" 
+    "historia1 historia2 "
+    "hitos sucesos";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 10px 5px 10px 5px;
+    background-color: #d67c30;
+}
+
+.tituloHistoria {
+    grid-area: titulo;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.encabezadoHistoria1 {
+    grid-area: historia1;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    margin: 5px;
+    color: gray;
+    background-color: white;
+}
+
+.encabezadoHistoria2 {
+    grid-area: historia2;
+    margin-left: 40px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+
+.hitos {
+    grid-area: hitos;
+    text-align: center;
+    line-height: 55px;
+    border: rgb(226, 226, 226) 1px solid;
+    margin: 5px;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+    
+}
+.sucesos {
+    grid-area: sucesos;
+    padding-left: 10px;
+    margin: 5px;
+    line-height: 20px;
+    border: white 1px solid;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+}
+
+/* SECCIÓN 4 MOBILE */
+
+div.imagenesNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 5px 120px 5px;
+    background-color: rgb(207, 207, 207);
+}
+
+.tituloImagenNosotros {
+    background-color: rgb(207, 207, 207);
+    border: rgb(207, 207, 207)solid 1px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #d67c30;
+}
+
+/* SECCIÓN 5 (Footer) MOBILE */
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+    
+div.redesFooter a{
+    padding: 5px;  
+}
+    
+div.contactoFooter {
+    margin:0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+}
+/*  Aplicación del estrilo TABLET para página Nosotros */ 
+/* PAGINA NOSOTROS-SECCIÓN 1 TABLET */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    
+/* SECCIÓN 2 TABLET */
+.portadaSecciones p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify; 
+}
+
+/* SECCIÓN 3 TABLET */
+
+div.historia {
+    display: grid;
+    grid-template-areas:
+    "titulo titulo" 
+    "historia1 historia2 "
+    "hitos sucesos";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 10px 5px 10px 5px;
+    background-color: #d67c30;
+}
+
+.tituloHistoria {
+    grid-area: titulo;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.encabezadoHistoria1 {
+    grid-area: historia1;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    margin: 5px;
+    color: gray;
+    background-color: white;
+}
+
+.encabezadoHistoria2 {
+    grid-area: historia2;
+    margin-left: 40px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+
+.hitos {
+    grid-area: hitos;
+    text-align: center;
+    line-height: 55px;
+    border: rgb(226, 226, 226) 1px solid;
+    margin: 5px;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+    
+}
+.sucesos {
+    grid-area: sucesos;
+    padding-left: 10px;
+    margin: 5px;
+    line-height: 30px;
+    border: white 1px solid;
+    color: white;
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(161, 160, 160) );
+}
+
+/* SECCIÓN 4 TABLET */
+
+div.imagenesNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 5px 120px 5px;
+    background-color: rgb(207, 207, 207);
+}
+div.imagenesNosotros img{
+    width: 650px;
+    height: auto;
+}    
+
+.tituloImagenNosotros {
+    background-color: rgb(207, 207, 207);
+    border: rgb(207, 207, 207)solid 1px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #d67c30;
+}
+
+/* SECCIÓN 5 (Footer) TABLET */
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+    
+div.redesFooter a{
+    padding: 5px;  
+}
+    
+div.contactoFooter {
+    margin:0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+}
+
+/* -----------Página Producto------------ */
+/* Versión escritorio */
+
+/* SECCIÓN 1 */
+/* SECCIÓN 2 */
+
+.portadaSecciones p {
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+.conteinerProducto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  center;
+    background-color: #d67c30;
+    padding: 30px 50px 40px 50px;
+    
+}
+.bloqueProducto {
+    border:rgb(255, 255, 255) solid 1px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 550px;
+}
+.carteristicasProductos {
+    color: rgb(158, 158, 158);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+div.conteinerProducto p{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background: #d67c30;
+}
+/* SECCIÓN 4 */
+div.bannerProductos {
+    text-align: center;
+    background: rgb(223, 223, 223);
+    font-size: 25px;
+    color: #d67c30;
+    padding: 30px;
+}
+div.bannerProductos  h3{
+    padding: 30px;
+}  
+/* Aplicación del estrilo MOBILE para página PRODUCTOS */
+/* PAGINA PRODUCTOS-SECCIÓN 1 MOBILE */
+@media only screen and (max-width: 480px) {
+    
+/* SECCIÓN 2 MOBILE */
+
+.portadaSecciones p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify; 
+}
+.conteinerProducto {
+    padding: 30px 10px 40px 10px;
+    
+}
+.bloqueProducto {
+    border:rgb(255, 255, 255) solid 1px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 450px;
+    height: 600px;
+}
+.bloqueProducto img {
+    width: 350px;
+    height: auto;
+} 
+
+}
+.bloqueProducto p {
+    font-size: 24px;
+}
+.carteristicasProductos {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+div.conteinerProducto p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+/* SECCIÓN 4 MOBILE */
+div.bannerProductos iframe {
+    width: 420px;
+    height: 380px;
+}
+div.bannerProductos {
+    padding: 10px 10px 70px 10px;
+}
+
+/* Aplicación del estilo TABLET para página PRODUCTOS */
+/* PAGINA PRODUCTOS-SECCIÓN 1 TABLET */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+/* SECCIÓN 2 TABLET */
+    
+.portadaSecciones p {
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify; 
+}
+.conteinerProducto {
+    padding: 30px 10px 40px 10px;
+        
+}
+.bloqueProducto {
+    border:rgb(255, 255, 255) solid 1px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 650px;
+    height: 800px;
+}
+.bloqueProducto img {
+    width: 550px;
+    height: auto;
+} 
+
+.bloqueProducto p {
+    font-size: 28px;
+}
+.carteristicasProductos {
+    margin-top: 20px;
+    font-size: 21px;
+}
+    
+div.conteinerProducto p{
+    font-size: 23px;
+    margin-top: 10px;
+}
+/* SECCIÓN 4 TABLET */
+div.bannerProductos iframe {
+    width: 420px;
+    height: 380px;
+}
+div.bannerProductos {
+    padding: 10px 10px 70px 10px;
+}
+}
+/* -----------Página Contacto------------ */
+/* Versión escritorio */
+
+/* SECCIÓN 1 */
+/* SECCIÓN 2 */
+/* SECCIÓN 3 */
+
+div.formContacto {
+    background-color: gray;
+    padding: 30px 260px 30px 260px;
+}
+
+div.formContacto h3{
+    color: white;
+    text-align: center; 
+}
+
+div.formContacto form {
+    color: white;
+    line-height: 30px;
+    padding: 40px 30px 40px 30px;
+}
+
+/* SECCIÓN 4 */
+
+div.mapas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 10px 60px 10px;
+    background-color: #d67c30;
+}
+div.mapas iframe {
+    margin: 15px;    
+}
+
+div.mapas p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+}
+/* Aplicación del estrilo MOBILE para página CONTACTO */
+/* PAGINA CONTACTO-SECCIÓN 1 MOBILE */
+@media only screen and (max-width: 480px) {
+    
+/* SECCIÓN 2 MOBILE */
+
+.portadaSecciones p {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify; 
+}
+.conteinerProducto {
+    padding: 30px 10px 40px 10px;    
+}
+
+/* SECCIÓN 3 MOBILE */
+div.formContacto {
+    background-color: rgb(117, 33, 33);
+}
+
+div.formContacto h3{
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: auto; 
+}
+

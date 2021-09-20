@@ -1,0 +1,1402 @@
+@charset "UTF-8";
+* {
+  margin: "0";
+  padding: "0";
+  font-family: 'Questrial', normal;
+  list-style: none;
+}
+
+/* Variables */
+/* ------------------------------------------------ */
+/* Página 1-Index */
+/* Bloque 1 Encabezado de página*/
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  border: #d67c30 solid 1px;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarTogglerDemo02.collapse.navbar-collapse ul.navbar-nav.ms-auto li.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarTogglerDemo02.collapse.navbar-collapse ul.navbar-nav.ms-auto li.nav-item a.nav-link.active {
+  color: #57575a;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarTogglerDemo02.collapse.navbar-collapse ul.navbar-nav.ms-auto li.nav-item a.nav-link {
+  color: #d67c30;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light div.container-fluid div#navbarTogglerDemo02.collapse.navbar-collapse ul.navbar-nav.ms-auto li.nav-item a.nav-link:hover {
+  color: #ffffff;
+  background-color: #d67c30;
+  width: auto;
+}
+
+/* Bloque 2 Portada */
+/* Bloque 3 Texto + imagen */
+div.clearfix h3.m-5 {
+  color: #d67c30;
+}
+
+@media (max-width: 451px) {
+  img.col-md-4.float-md-end.mb-3.ms-md-3 {
+    width: 450px;
+  }
+}
+
+/* Bloque 4 Soluciones ofrecidas */
+div.soluciones {
+  background-color: #e9e9e9;
+  color: #57575a;
+  padding: 30px;
+}
+
+div.soluciones div.soluciones__titulo {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  color: #d67c30;
+}
+
+div.soluciones div.soluciones__titulo p {
+  color: #57575a;
+}
+
+div.soluciones div.soluciones__tipos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 20px 5px 20px 5px;
+}
+
+div.soluciones div.soluciones__tipos h3 {
+  color: #d67c30;
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--domestico {
+  border: #d67c30 solid 1px;
+  width: 630px;
+  padding: 20px;
+  margin: 5px;
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--domestico:hover {
+  background-color: rgba(228, 109, 11, 0.295);
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--industrial {
+  border: #d67c30 1px solid;
+  width: 600px;
+  /* Acá apliqué un ej de Operaciones de acuerdo a la variable Width */
+  padding: 20px;
+  margin: 5px;
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--industrial:hover {
+  background-color: rgba(228, 109, 11, 0.295);
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--parque {
+  border: #d67c30 1px solid;
+  width: 630px;
+  padding: 20px;
+  margin: 5px;
+}
+
+div.soluciones div.soluciones__tipos div.soluciones__tipos--parque:hover {
+  background-color: rgba(228, 109, 11, 0.295);
+}
+
+@media (max-width: 450px) {
+  div.soluciones {
+    padding: 0px;
+  }
+  div.soluciones div.soluciones__titulo {
+    text-align: center;
+  }
+  div.soluciones div.soluciones__tipos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--domestico {
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--industrial {
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--parque {
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 576px) {
+  div.soluciones {
+    padding: 0px;
+  }
+  div.soluciones div.soluciones__titulo {
+    text-align: center;
+  }
+  div.soluciones div.soluciones__tipos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--domestico {
+    width: 480px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--industrial {
+    width: 480px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--parque {
+    width: 480px;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.soluciones {
+    padding: 30px;
+  }
+  div.soluciones div.soluciones__tipos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--domestico {
+    width: 680px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--industrial {
+    width: 680px;
+    padding: 20px;
+    margin: 5px;
+  }
+  div.soluciones div.soluciones__tipos div.soluciones__tipos--parque {
+    width: 680px;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+
+/* Bloque 5 Banner con tipo de productos*/
+/* Bloque 6 Proyectos */
+div.col div.card.col-md-12.m-1 {
+  border: #d67c30 solid 1px;
+}
+
+div.col h5.card-title {
+  color: #d67c30;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Bloque 7 Banner con Aviso ambiental */
+div.card.text-center.m-5 {
+  background-color: #f1f1f1;
+}
+
+div.card.text-center.m-5 div.card-header {
+  background-color: #d67c30;
+  color: #ffffff;
+}
+
+div.card.text-center.m-5 div.card-body h5.card-title {
+  color: #d67c30;
+  font-size: 20px;
+}
+
+div.card.text-center.m-5 div.card-body p.card-text {
+  color: gray;
+}
+
+div.card.text-center.m-5 div.card-footer {
+  background-color: #d67c30;
+  color: white;
+}
+
+/* Bloque 6 Video Informativo */
+div.video {
+  background-color: #d67c30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+div.video h3 {
+  color: white;
+  padding: 20px;
+}
+
+div.video div.video__embebido {
+  width: auto;
+}
+
+@media (max-width: 450px) {
+  div.video h3 {
+    font-size: 20px;
+  }
+  div.video div.video__embebido iframe {
+    width: 410px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 576px) {
+  div.video h3 {
+    font-size: 22px;
+  }
+  div.video div.video__embebido iframe {
+    width: 500px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.video h3 {
+    font-size: 22px;
+  }
+  div.video div.video__embebido iframe {
+    width: 600px;
+  }
+}
+
+/* Bloque 9 Caja de información */
+div.bloque__inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(/img/fondo-es-banner.jpg);
+}
+
+div.bloque__inform div.bloque__inform--accordion.col-md-6 {
+  margin: 10px;
+  padding: 40px;
+}
+
+div.bloque__inform div.bloque__inform--accordion.col-md-6 div.accordion div.accordion-item h2.accordion-header button.accordion-button {
+  color: white;
+  background-color: #d67c30;
+}
+
+div.bloque__inform div.bloque__inform--accordion.col-md-6 div.accordion div.accordion-item h2.accordion-header button.accordion-button.collapsed {
+  color: white;
+  background-color: #d67c30;
+  border-color: orange;
+}
+
+div.bloque__inform div.bloque__inform--accordion.col-md-6 div.accordion div.accordion-item h2.accordion-header button.accordion-button::after {
+  background-color: #d67c30;
+  color: white;
+  border-color: #d67c30;
+}
+
+div.bloque__inform div.bloque__inform--accordion.col-md-6 div.accordion div.accordion-item:not(.collapsed) {
+  border: white  solid 1px;
+}
+
+@media (max-width: 450px) {
+  div.bloque__inform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 576px) {
+  div.bloque__inform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.bloque__inform div.bloque__inform--imagen {
+    width: 450px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.bloque__inform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.bloque__inform div.bloque__inform--imagen {
+    width: 600px;
+  }
+}
+
+/* Bloque 10 Formulario de contacto */
+form.row.g-3.p-5.m-0.text-white {
+  background-color: #d67c30;
+}
+
+/* Bloque 11 Footer */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: left;
+  padding: 40px 10px 20px 10px;
+  line-height: 40px;
+  background-color: #202020;
+  color: white;
+}
+
+footer div.footer__redes {
+  padding: 15px;
+  text-align: center;
+}
+
+footer div.footer__redes a {
+  padding: 5px;
+}
+
+footer div.footer__contacto {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 120px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer div.footer__contacto {
+    text-align: center;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer div.footer__contacto {
+    text-align: center;
+    margin: 15px;
+  }
+}
+
+/* ------------------------------------------------ */
+/* Página 2 Nosotros */
+/* Bloque 1 Header */
+/* Bloque 2 Portada */
+div.portada {
+  background-image: url(/img/Portada-servicios.jpg);
+  text-align: center;
+  padding: 130px 30px 130px 30px;
+}
+
+div.portada h1 {
+  font-size: 30px;
+  color: #d67c30;
+}
+
+div.portada p {
+  color: #57575a;
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 100px 10px 100px 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.portada {
+    padding: 100px 10px 100px 10px;
+  }
+}
+
+/* Bloque 3 Historia */
+div.historia {
+  background-color: #e6e6e6;
+  padding: 20px;
+}
+
+div.historia div.row.row-cols-2 {
+  background-color: #e4e4e4;
+}
+
+div.historia div.row.row-cols-2 div.col.col-md-3 {
+  border: #d67c30 solid 1px;
+  padding: 10px;
+  color: #57575a;
+  text-align: center;
+}
+
+div.historia div.row.row-cols-2 div.col.col-md-9 {
+  border: #d67c30 solid 1px;
+  padding: 10px;
+  color: gray;
+}
+
+div.historia div.row.row-cols-2 div#container__titularB.col.col-md-9 {
+  border: #e0e0e0 solid 1px;
+  background-color: #d67c30;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.historia div.row.row-cols-2 div#container__titularB.col.col-md-9:hover {
+  background-color: #57575a;
+  color: #ffffff;
+}
+
+div.historia div.row.row-cols-2 div#container__titularA.col.col-md-3 {
+  border: #e0e0e0 solid 1px;
+  background-color: #d67c30;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.historia div.row.row-cols-2 div#container__titularA.col.col-md-3:hover {
+  background-color: #57575a;
+  color: #ffffff;
+}
+
+/* Bloque 4 Fotos Obras */
+div.contenedor {
+  background-color: #d67c30;
+  padding: 20px 10px 40px 10px;
+}
+
+div.contenedor div.contenedor__texto {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+div.contenedor div.contenedor__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.contenedor div.contenedor__imagen img {
+  margin: 5px;
+}
+
+div.contenedor div.contenedor__imagen img:hover {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}
+
+@media (max-width: 450px) {
+  div.contenedor div.contenedor__imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contenedor div.contenedor__imagen img {
+    width: 410px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 576px) {
+  div.contenedor div.contenedor__imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contenedor div.contenedor__imagen img {
+    width: 450px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.contenedor div.contenedor__imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contenedor div.contenedor__imagen img {
+    width: 590px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  div.contenedor div.contenedor__imagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contenedor div.contenedor__imagen img {
+    width: 590px;
+    margin: 5px;
+  }
+}
+
+/* ------------------------------------------------ */
+/* Página 3 Productos  */
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Productos */
+/* Aplicación de la regla @each */
+div.producto div.producto__tipo div.chico-logo {
+  background-image: url(/img/consumos/chico.png);
+  width: 200px;
+  height: 40px;
+}
+
+/* Aplicación de la regla @each */
+div.producto div.producto__tipo div.mediano-logo {
+  background-image: url(/img/consumos/mediano.png);
+  width: 200px;
+  height: 40px;
+}
+
+/* Aplicación de la regla @each */
+div.producto div.producto__tipo div.grande-logo {
+  background-image: url(/img/consumos/grande.png);
+  width: 200px;
+  height: 40px;
+}
+
+.producto {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.producto .producto__tipo {
+  border: #d67c30 solid 1px;
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 40px;
+}
+
+.producto .producto__tipo p {
+  text-align: center;
+  color: #d67c30;
+}
+
+.producto .producto__tipo li.producto__tipo--caracteristicas {
+  color: #57575a;
+  font-size: 15px;
+  text-align: center;
+}
+
+.producto .producto__tipo:hover {
+  background-color: rgba(241, 125, 30, 0.123);
+  width: 420px;
+}
+
+/* Bloque 4 Llamada a la acción */
+div.call {
+  background-color: #d67c30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+
+div.call div.call__titulo h2 {
+  color: white;
+}
+
+div.call div.call__titulo p {
+  color: white;
+  text-align: center;
+}
+
+div.call div.call__link button {
+  background-color: #57575a;
+  padding: 20px;
+  margin: 5px;
+  border-color: white 1px solid;
+}
+
+div.call div.call__link button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Bloque 5 Video de productos */
+div.video__productos {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+
+div.video__productos h3 {
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 450px) {
+  div.video__productos h3 {
+    font-size: 20px;
+  }
+  div.video__productos iframe {
+    width: 400px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 576px) {
+  div.video__productos h3 {
+    font-size: 20px;
+  }
+  div.video__productos iframe {
+    width: 450px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.video__productos h3 {
+    font-size: 30px;
+  }
+  div.video__productos iframe {
+    width: auto;
+  }
+}
+
+/* Bloque 8 */
+/* ------------------------------------------------ */
+/* Página 4 Servicios  */
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Atributos de la empresa */
+div.atributos {
+  background-color: #d67c30;
+}
+
+div.atributos div.atributos__titulo {
+  text-align: center;
+  color: #ffffff;
+  padding: 35px 10px 25px 10px;
+}
+
+div.atributos div.atributos__textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 10px 35px 10px;
+}
+
+div.atributos div.atributos__textos div.atributos__bloques {
+  background-color: #e9e9e9;
+  padding: 20px;
+  margin: 10px;
+  color: #d67c30;
+}
+
+div.atributos div.atributos__textos div.atributos__bloques:hover {
+  background-color: #414141;
+  color: #e9e9e9;
+  border: #e9e9e9 solid 1px;
+  -webkit-transform: translate(0px, 2px);
+          transform: translate(0px, 2px);
+}
+
+div.atributos div.atributos__imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d67c30;
+}
+
+div.atributos div.atributos__imagenes img {
+  margin: 10px;
+}
+
+div.atributos div.atributos__imagenes img:hover {
+  -webkit-transform: translate(0px, 2px);
+          transform: translate(0px, 2px);
+}
+
+@media (max-width: 576px) {
+  div.atributos div.atributos__textos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.atributos div.atributos__imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.atributos img {
+    width: 410px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.atributos div.atributos__textos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.atributos div.atributos__imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Bloque 4 Atributos secundarios de la empresa */
+div.atributosB {
+  background-color: #e2e2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+}
+
+div.atributosB div.atributosB__elemento {
+  border: #d67c30 solid 1px;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.atributosB div.atributosB__elemento h3.atributoB__titulo {
+  color: #d67c30;
+  text-align: center;
+}
+
+div.atributosB div.atributosB__elemento p.atributoB__texto {
+  color: gray;
+}
+
+div.atributosB div.atributosB__elemento:hover {
+  background-color: #cccccc;
+}
+
+@media (max-width: 576px) {
+  div.atributosB {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.atributosB {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* ------------------------------------------------ */
+/* Página 5 Contacto  */
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Formulario */
+div.formContacto.p-5 {
+  background-color: #d67c30;
+  color: #ffffff;
+}
+
+/* Bloque 4 Mapas */
+div.mapas {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 10px 30px 10px;
+}
+
+div.mapas div.mapas__provincias {
+  border: #d67c30 solid 1px;
+  margin: 20px;
+  background-color: #d67c30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.mapas div.mapas__provincias p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+div.mapas div.mapas__provincias div.mapas__contacto {
+  margin: 5px;
+}
+
+@media (max-width: 400px) {
+  div.mapas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.mapas div.mapas__provincias {
+    width: 370px;
+  }
+  div.mapas div.mapas__provincias iframe {
+    width: 370px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.mapas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.mapas div.mapas__provincias iframe {
+    width: 650px;
+  }
+}
+
+/* Bloque 5 Ley de generación */
+/*Creo el bucle para usar los valores del mapa*/
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--Mendoza {
+  background-color: #48b81c;
+  width: 400px;
+  margin: 15px;
+}
+
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--Buenos-Aires {
+  background-color: #48b81C;
+  width: 400px;
+  margin: 15px;
+}
+
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--San-Juan {
+  background-color: #d35013;
+  width: 400px;
+  margin: 15px;
+}
+
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--La-Pampa {
+  background-color: #48b81c;
+  width: 400px;
+  margin: 15px;
+}
+
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--Cordoba {
+  background-color: #d35013;
+  width: 400px;
+  margin: 15px;
+}
+
+div.leyGeneracion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #d67c30;
+  color: white;
+}
+
+div.leyGeneracion div.leyGeneracion__titulo h2 {
+  font-size: 20px;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.leyGeneracion div.leyGeneracion__provincias li.btn--Quilmes {
+  background-color: #48b81c;
+  width: 400px;
+  margin: 15px;
+}
+
+@media (max-width: 576px) {
+  div.leyGeneracion div.leyGeneracion__provincias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  div.leyGeneracion div.leyGeneracion__provincias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

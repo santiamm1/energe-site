@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/pages/Contacto.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    
+
+<link rel="stylesheet" href="./Contacto_files/style2.css"><link href="./Contacto_files/css" rel="stylesheet" type="text/css"></head>
+<!-- Inicio de la página -->
+<!-- SECCIÓN 1 -->
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Contacto_files/logo.png" alt="logoDeenerge">
+        </div>
+        
+<!-- Menú de navegación --> 
+        <div class="menu">
+            <nav>   
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Index.html">Home</a></li> 
+                    <li><a href="http://127.0.0.1:5500/pages/Nosotros.html">Nosotros</a></li> 
+                    <li><a href="http://127.0.0.1:5500/pages/Producto.html">Productos</a></li> 
+                    <li><a href="http://127.0.0.1:5500/pages/Servicios.html">Servicios</a></li>
+                    <li><a href="http://127.0.0.1:5500/pages/Contacto.html">Contacto</a></li>
+                </ul>   
+            </nav>
+        </div>    
+    </header>
+    <!-- Cuerpo principal --> 
+
+<!-- SECCIÓN 2 -->   
+    <main>
+        <div class="portadaSecciones">
+            <h1>Contacto</h1> 
+            <p id="textoContacto">Por favor, para contactarnos, le pedimos registrar sus datos en el sigueinte formulario. Recuerde que los dato solicitados son únicamente para contactos comerciales.</p>
+        </div> 
+
+<!-- SECCIÓN 3 -->        
+
+        <div class="formContacto">
+            <h3>Estamos para ayudarte</h3>
+            <form>
+                <fieldset>
+                    <legend>Contacto</legend>
+                            <label for="nombreApellido">Nombre y Apellido:</label>
+                            <input type="text" name="nombreApellido" size="40px">
+                        <br><br>
+                            <label for="tel">Teléfono:</label>
+                            <input type="number" name="tel">
+                        <br><br>
+                            <label for="motivo">Seleccione el motivo de Contacto:</label>
+                            <select name="motivo">
+                            <option value="consulta">Consulta</option>   
+                            <option value="reclamo">Reclamo</option>   
+                            <option value="cotizacion">Cotización</option>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar formulario">
+
+                    </fieldset>     
+            </form>             
+        </div>
+<!-- SECCIÓN 4 -->
+        <div class="mapas">
+            <div>
+                <iframe src="./Contacto_files/embed.html" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>Mendoza</p>
+            </div>
+            <div>
+                <iframe src="./Contacto_files/embed(1).html" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>Buenos Aires</p>
+            </div>
+            <div>
+                <iframe src="./Contacto_files/embed(2).html" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>San Juan</p>
+            </div>
+        </div>        
+    </main>
+
+<!-- SECCIÓN 5 -->        
+<footer>    
+    <div>
+        <img src="./Contacto_files/Logo Empresa B.png" alt="logoEmpresab" width="80px" height="auto">
+    </div>
+    <div class="contactoFooter">
+        <h3>Contactanos</h3>
+        <li>261-4932940</li>
+        <li>contacto@energe.com.ar</li>
+    </div>
+    <div class="redesFooter">
+        <h3>Seguinos en nuestras redes</h3>
+        <a href="https://api.whatsapp.com/send?phone=+2612424493&amp;text=Hola,%20me%20comunico%20desde%20la%20web%20de%20Energe"> <img src="./Contacto_files/whatsapp.png" alt="Whatsapp" width="30px" height="30px"></a> 
+        <a href="https://www.linkedin.com/company/energe/"> <img src="./Contacto_files/linkedin.png" alt="Linkedin" width="30px" height="30px"></a> 
+        <a href="https://www.youtube.com/channel/UCVEar06ZbR-Za3Gx_tf5BeA"> <img src="./Contacto_files/youtube.png" alt="Youtube" width="30px" height="30px"></a> 
+        <a href="https://facebook.com/energesa"> <img src="./Contacto_files/facebook.png" alt="Facebook" width="30px" height="30px"></a> 
+        <a href="https://instagram.com/energe_sa"> <img src="./Contacto_files/instagram.png" alt="Instagam" width="30px" height="30px"></a>
+        <p>La Revolución solar, te espera.</p>
+    </div>
+</footer>     
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
