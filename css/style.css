@@ -490,7 +490,7 @@ footer div.footer__contacto {
 /* Bloque 1 Header */
 /* Bloque 2 Portada */
 div.portada {
-  background-image: url(/img/Portada-servicios.jpg);
+  background-image: url(../img/Portada-servicios.jpg);
   text-align: center;
   padding: 130px 30px 130px 30px;
 }
