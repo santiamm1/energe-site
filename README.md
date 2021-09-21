@@ -3,9 +3,15 @@
 Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 <strong>Comisión 22220</strong>
 
-<strong>Lenguajes utilizados:</strong>
+<i>Profesor: Rodrigo Zungri</i>
+<br>
+<i>Tutor: Joaquín Gonzalez</i>
+<br>
+<i>Desarrollado por: Santiago Molina Maure</i>
 
-<i>HTML + CSS + Bootstrap</i>
+<strong>Construido con:</strong>
+
+<i>Visual Code + HTML + CSS + SASS + Bootstrap + Git + GitHub</i>
 
 <strong>Secciones:</strong>
 
