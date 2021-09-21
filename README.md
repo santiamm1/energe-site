@@ -9,10 +9,17 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 
 <strong>Secciones:</strong>
 
--Nosotros: Página que hace referencia a los integrantes de la empresa como así también la historia de la misma.
+<li><a href="https://santiamm1.github.io/energe-site/pages/Nosotros.html">Nosotros</a>: Página que hace referencia a los integrantes de la empresa como así también la historia de la misma.</li>
 
--Productos: Página en referencia a los productos que se comercializan con su correspondiente descripción.
+<li><a href="https://santiamm1.github.io/energe-site/pages/Producto.html">Productos</a>: Página en referencia a los productos que se comercializan con su correspondiente descripción.</li>
 
--Servicios: Página con la descripción de servicios prestados.
+<li><a href="https://santiamm1.github.io/energe-site/pages/Servicios.html">Servicios</a>: Página con la descripción de servicios prestados.</li>
 
--Contacto: Página con los contactos de la empresa por plaza.
+<li><a href="https://santiamm1.github.io/energe-site/pages/Contacto.html">Contacto</a>: Página con los contactos de la empresa por plaza.</li>
+<br>
+
+<strong>Links de seguimiento:</strong>
+
+<li><a href="https://santiamm1.github.io/energe-site/pages/index.html">Acceso directo a GitHub Page</a></li>
+
+<li><a href="https://energeweb.000webhostapp.com/index.html">Hosting 000 Webhostapp</a></li>
