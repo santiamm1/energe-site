@@ -11,7 +11,7 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 
 <strong>Construido con:</strong>
 
-<i>Visual Code + HTML + CSS + SASS + Bootstrap + Git + GitHub</i>
+<i>Visual Code + HTML + CSS + SCSS + Bootstrap + Git + GitHub</i>
 
 <strong>Secciones:</strong>
 
