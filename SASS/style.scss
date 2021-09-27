@@ -53,12 +53,7 @@ div.clearfix {
     h3.m-5{
         color: $naranja-energe;
     }
-}
-@media (max-width: 451px) { 
-    img.col-md-4.float-md-end.mb-3.ms-md-3{
-        width: 450px;
-    } 
-}    
+}  
 
 
 /* Bloque 4 Soluciones ofrecidas */
@@ -90,30 +85,36 @@ div.soluciones {
             
                     div.soluciones__tipos--domestico{
                         border: $naranja-energe solid 1px;
+                        background-color:white;
                         width: 630px;
                         padding: 20px;
                         margin: 5px;
                     }
                     div.soluciones__tipos--domestico:hover{
                         background-color: rgba(228, 109, 11, 0.295);
+                        transform: translate(0px, 3px);
                     }
                     div.soluciones__tipos--industrial{
                         border: $naranja-energe  1px solid;
+                        background-color:white;
                         width: $ancho-cajas-mobile+120; /* Acá apliqué un ej de Operaciones de acuerdo a la variable Width */
                         padding: 20px;
                         margin: 5px;
                     }
                     div.soluciones__tipos--industrial:hover{
                         background-color: rgba(228, 109, 11, 0.295);
+                        transform: translate(0px, 3px);
                     }
                     div.soluciones__tipos--parque{
                         border:$naranja-energe  1px solid;
+                        background-color:white;
                         width: 630px;
                         padding: 20px;
                         margin: 5px;
                     }
                     div.soluciones__tipos--parque:hover{
                         background-color: rgba(228, 109, 11, 0.295);
+                        transform: translate(0px, 3px);
                     }
                 }
 }
