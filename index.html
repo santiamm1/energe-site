@@ -58,23 +58,23 @@
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./img/portada__home__2/1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <img src="./img/iso.png" alt="logoEnerge" width="80px" height="auto">    
+            <img src="./img/portada__home__2/1.jpg" class="d-block w-100" alt="Portada1">
+            <div class="carousel-caption d-md-block">
+            <img src="./img/iso.png" alt="logoEnerge" width="60px" height="auto">    
             <h5>Somos espacialistas en energía solar</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./img/portada__home__2/2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <img src="./img/iso.png" alt="logoEnerge" width="80px" height="auto">
+            <img src="./img/portada__home__2/2.jpg" class="d-block w-100" alt="Portada2">
+            <div class="carousel-caption d-md-block">
+            <img src="./img/iso.png" alt="logoEnerge" width="60px" height="auto">
             <h5>Dotamos de energía limpia el planeta</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./img/portada__home__2/3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <img src="./img/iso.png" alt="logoEnerge" width="80px" height="auto">
+            <img src="./img/portada__home__2/3.jpg" class="d-block w-100" alt="Portada3">
+            <div class="carousel-caption d-md-block">
+            <img src="./img/iso.png" alt="logoEnerge" width="60px" height="auto">
             <h5>Cuidamos el medio ambiente evitando emisiones de C02</h5>
             </div>
         </div>
@@ -92,7 +92,7 @@
 <!--Bloque 3 Texto+imagen  -->    
 
 <div class="clearfix">
-    <img src="./img/imagen-home.jpg" class="col-md-4 float-md-end mb-3 ms-md-3" alt="imagenHome">
+    <img src="./img/salentein.jpg" class="img-fluid col-md-3 float-md-end mb-3" alt="imagenHome">
     <h3 class="m-5">Bienvenidos a Energe, energía solar</h3>
     <p class="text-secondary mx-5">
         Somos especialistas en brindar soluciones domésticas e industriales mediante la utilización de energía solar. 
@@ -118,7 +118,7 @@
             <div class="soluciones__tipos">
                 <div class="soluciones__tipos--domestico">
                     <h3>Domésticas</h3>
-                    <p>Dotamos tu hogar con energía limpia para ahorrar en tus consumos e impactar positivamente sobre el ambiente.</p>
+                    <p>Dotamos tu hogar con energía limpia para ahorrar en tu tarifca y cuidar el ambiente.</p>
                     <img src="./img/domestico.png" alt="Termotanque" width="100px" height="auto">    
                 </div>
                 <div class="soluciones__tipos--industrial">
@@ -283,26 +283,26 @@
     
 
 <!-- Bloque 10 Formulario-->  
-    <form class="row g-3 p-5 m-0 text-white"   >
+    <form action="enviar.php" method="post" class="row g-3 p-5 m-0 text-white">
         <div class="col-md-6">
             <label for="inputName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputName">
+            <input type="text" class="form-control" id="inputName" name="nombre">
         </div>
         <div class="col-md-6">
             <label for="inputSurname" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="inputSurname">
+            <input type="text" class="form-control" id="inputSurname" name="apellido">
         </div>
         <div class="col-md-6">
             <label for="inputPhone" class="form-label">Teléfono</label>
-            <input type="number" class="form-control" id="inputPhone">
+            <input type="number" class="form-control" id="inputPhone" name="telefono">
             </div>
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <input type="email" class="form-control" id="inputEmail" name="correo">
         </div>  
         <div class="col-md-12">
             <label for="inputState" class="form-label">Motivo del contacto</label>
-            <select id="inputState" class="form-select">
+            <select id="inputState" class="form-select" name="mensaje">
                 <option selected>Tipo de consulta</option>
                 <option>Consulta en general</option>
                 <option>Presupuesto</option>
