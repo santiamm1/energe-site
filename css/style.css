@@ -335,7 +335,7 @@ div.bloque__inform {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/fondo-es-banner.jpeg);
+  background-image: url(../img/fondo-es-banner.jpg);
 }
 
 div.bloque__inform div.bloque__inform--accordion.col-md-6 {
