@@ -493,7 +493,42 @@ div.historia{
             color:#ffffff;
         }
     }
+}    
+div.img__socios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $gris-energe;
+        padding: 20px;
+        img {
+            width: auto;   
+        }   
 }
+@media (max-width: 450px) {
+    div.img__socios{
+        img {
+            width: 440px; 
+            height: auto;  
+        }   
+}
+}    
+@media (min-width: 450px) and (max-width: 576px) {
+    div.img__socios{
+        img {
+            width: 450px; 
+            height: auto;  
+        }   
+}
+}    
+@media (min-width: 577px) and (max-width:768px){
+    div.img__socios{
+        img {
+            width: 577px; 
+            height: auto;  
+        }   
+}
+}    
+
 /* Bloque 4 Fotos Obras */
 div.contenedor{
     background-color:$naranja-energe;
@@ -708,9 +743,11 @@ div.video__productos {
 div.atributos{
     background-color: $naranja-energe;
     div.atributos__titulo{
-        text-align: center;
-        color: #ffffff;
-        padding: 35px 10px 25px 10px;
+        h2{
+            text-align: center;
+            color: #ffffff;
+            padding: 35px 10px 25px 10px;
+        }
     }
     div.atributos__textos{
         display: flex;
