@@ -312,7 +312,7 @@ div.bloque__inform{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(../img/fondo-es-banner.jpeg);
+    background-image: url(../img/fondo-es-banner.jpg);
     div.bloque__inform--accordion.col-md-6 {
         margin: 10px;
         padding: 40px;
@@ -616,7 +616,7 @@ div.contenedor{
     div.producto{
         div.producto__tipo{
             div.#{$consumo}-logo{
-                background-image: url(/img/consumos/#{$consumo}.png);
+                background-image: url(../img/consumos/#{consumo}.png);
                 width: 200px;
                 height: 40px;
             }
@@ -742,6 +742,7 @@ div.video__productos {
 
 div.atributos{
     background-color: $naranja-energe;
+    margin-top: -30px;
     div.atributos__titulo{
         h2{
             text-align: center;

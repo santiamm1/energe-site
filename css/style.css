@@ -335,7 +335,7 @@ div.bloque__inform {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/fondo-es-banner.jpeg);
+  background-image: url(../img/fondo-es-banner.jpg);
 }
 
 div.bloque__inform div.bloque__inform--accordion.col-md-6 {
@@ -731,21 +731,21 @@ div.contenedor div.contenedor__imagen img:hover {
 /* Bloque 3 Productos */
 /* Aplicación de la regla @each */
 div.producto div.producto__tipo div.chico-logo {
-  background-image: url(/img/consumos/chico.png);
+  background-image: url(../img/consumos/consumo.png);
   width: 200px;
   height: 40px;
 }
 
 /* Aplicación de la regla @each */
 div.producto div.producto__tipo div.mediano-logo {
-  background-image: url(/img/consumos/mediano.png);
+  background-image: url(../img/consumos/consumo.png);
   width: 200px;
   height: 40px;
 }
 
 /* Aplicación de la regla @each */
 div.producto div.producto__tipo div.grande-logo {
-  background-image: url(/img/consumos/grande.png);
+  background-image: url(../img/consumos/consumo.png);
   width: 200px;
   height: 40px;
 }
@@ -894,6 +894,7 @@ div.video__productos h3 {
 /* Bloque 3 Atributos de la empresa */
 div.atributos {
   background-color: #d67c30;
+  margin-top: -30px;
 }
 
 div.atributos div.atributos__titulo h2 {
