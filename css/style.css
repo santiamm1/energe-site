@@ -39,10 +39,6 @@ div.clearfix h3.m-5 {
   color: #d67c30;
 }
 
-script {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /* Bloque 4 Soluciones ofrecidas */
 div.soluciones {
   background-color: #e9e9e9;
@@ -235,6 +231,12 @@ div.soluciones div.soluciones__tipos div.soluciones__tipos--parque:hover {
 
 /* Bloque 5 Banner con tipo de productos*/
 /* Bloque 6 Proyectos */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #d67c30;
+}
+
 div.col div.card.col-md-12.m-1 {
   border: #d67c30 solid 1px;
 }
