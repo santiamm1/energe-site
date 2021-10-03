@@ -61,12 +61,12 @@ div.clearfix {
 div.soluciones {
     background-color: #e9e9e9;
     color: $gris-energe;
-    padding: 30px;
+    padding: 60px;
 
             
             div.soluciones__titulo {
             text-align: center;
-            padding: 10px 0px 20px 0px;
+            padding: 30px 0px 20px 0px;
             color: $naranja-energe;
                 p{
                     color: $gris-energe;
@@ -120,7 +120,7 @@ div.soluciones {
 }
 @media (max-width: 450px) { 
     div.soluciones {
-        padding: 0px;
+        padding: 10px;
                 
                 div.soluciones__titulo {
                 text-align: center;
@@ -131,7 +131,7 @@ div.soluciones {
                 flex-direction: column;
                 align-items:  center;
                 text-align: center;
-                padding: 20px 10px 20px 10px;
+                padding: 20px 5px 20px 5px;
                     
                         div.soluciones__tipos--domestico{
                             width: 400px;
@@ -148,12 +148,12 @@ div.soluciones {
                             padding: 20px;
                             margin: 5px;
                         }
-                    }
                 }
+    }
 }
-@media (min-width: 450px) and (max-width: 576px) { 
+@media (min-width: 451px) and (max-width: 576px) { 
     div.soluciones {
-        padding: 0px;
+        padding: 10px;
                 
                 div.soluciones__titulo {
                 text-align: center;
@@ -167,17 +167,17 @@ div.soluciones {
                 padding: 20px 10px 20px 10px;
                     
                         div.soluciones__tipos--domestico{
-                            width: $ancho-cajas-mobile;
+                            width: 450px;
                             padding: 20px;
                             margin: 5px;
                         }
                         div.soluciones__tipos--industrial{
-                            width: $ancho-cajas-mobile;
+                            width: 450px;
                             padding: 20px;
                             margin: 5px;
                         }
                         div.soluciones__tipos--parque{
-                            width: $ancho-cajas-mobile;
+                            width: 450px;
                             padding: 20px;
                             margin: 5px;
                         }
