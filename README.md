@@ -6,7 +6,7 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 <li><i>Profesor: Rodrigo Zungri</i></li>
 <li><i>Tutor: Joaquín Gonzalez</i></li>
 <li><i>Desarrollado por: Santiago Molina Maure</i></li>
-
+<br>
 <strong>Construido con:</strong>
 
 <i>Visual Code + HTML + CSS + SCSS + Bootstrap + Git + GitHub</i>
