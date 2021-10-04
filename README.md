@@ -26,6 +26,6 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 
 <strong>Links de seguimiento:</strong>
 
-<li><a href="https://santiamm1.github.io/energe-site/pages/index.html">Acceso directo a GitHub Page</a></li>
+<li><a href="https://santiamm1.github.io/energe-site/">Acceso directo a GitHub Page</a></li>
 
 <li><a href="https://energeweb.000webhostapp.com/index.html">Hosting 000 Webhostapp</a></li>
