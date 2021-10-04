@@ -4,10 +4,8 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 <strong>Comisión 22220</strong>
 
 <li><i>Profesor: Rodrigo Zungri</i></li>
-<br>
-<i>Tutor: Joaquín Gonzalez</i>
-<br>
-<i>Desarrollado por: Santiago Molina Maure</i>
+<li><i>Tutor: Joaquín Gonzalez</i></li>
+<li><i>Desarrollado por: Santiago Molina Maure</i></li>
 
 <strong>Construido con:</strong>
 
