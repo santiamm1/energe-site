@@ -271,7 +271,7 @@ div.card.text-center.m-5 div.card-footer {
   color: white;
 }
 
-/* Bloque 6 Video Informativo */
+/* Bloque 8 Video Informativo */
 div.video {
   background-color: #d67c30;
   display: -webkit-box;
@@ -886,7 +886,6 @@ div.video__productos h3 {
   }
 }
 
-/* Bloque 8 */
 /* ------------------------------------------------ */
 /* Página 4 Servicios  */
 /* Bloque 1 (sin edición en este apartado */
@@ -1454,5 +1453,34 @@ div.leyGeneracion div.leyGeneracion__provincias li.btn--Quilmes {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+/* ------------------------------------------------ */
+/* Página de Agradecimiento  */
+/* Bloque 1 (sin edición en este apartado */
+/* Bloque 2 (sin edición en este apartado */
+/* Bloque 3 Botón */
+div.boton__redireccion {
+  background-color: #57575a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+div.boton__redireccion button {
+  background-color: #d67c30;
+}
+
+div.boton__redireccion button a {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

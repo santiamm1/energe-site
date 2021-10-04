@@ -15,6 +15,6 @@ $carta.= "Mensaje; $mensaje";
 
 
 mail($destinatario, $asunto, $carta);
-header('Location:index.html')
+header('Location:Agradecimiento.html')
 
 ?>
