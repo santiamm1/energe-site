@@ -60,29 +60,29 @@
 <!-- Bloque 3 Formulario -->        
 
     <div class="formContacto p-5">
-        <form>
+        <form action="./enviar.php" method="post">
             <div class="row mb-3">
                 <label for="inputName" class="col-sm-2 col-form-label">Nombre y Apellido</label>
                 <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputName" name="nombre">
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputPhone" class="col-sm-2 col-form-label">Teléfono</label>
                 <div class="col-sm-10">
-                <input type="number" class="form-control" id="inputPhone">
+                <input type="number" class="form-control" id="inputPhone" name="telefono">
                 </div>
             </div>    
             <div class="row mb-3">
                 <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail">
+                <input type="email" class="form-control" id="inputEmail" name="correo">
                 </div>
             </div>
             <div class="row mb-3">
                 <label for="inputOption" class="col-sm-2 col-form-label">Motivo del contacto</label>
                 <div class="col-sm-10">
-                    <select id="inputOption" class="form-select">
+                    <select id="inputOption" class="form-select" name="mensaje">
                         <option selected>Elija una opción por favor...</option>
                         <option>Presuestos</option>
                         <option>Post-venta</option>
