@@ -3,7 +3,7 @@
 Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 <strong>Comisión 22220</strong>
 
-<i>Profesor: Rodrigo Zungri</i>
+<li><i>Profesor: Rodrigo Zungri</i></li>
 <br>
 <i>Tutor: Joaquín Gonzalez</i>
 <br>
