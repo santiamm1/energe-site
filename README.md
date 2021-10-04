@@ -15,7 +15,7 @@ Sitio web, desarrollado como trabajo final del curso de Desarrollo Web:
 
 <strong>Secciones:</strong>
 
-<li><a href="https://santiamm1.github.io/energe-site/pages/Index.html">Inicio</a>: Página de inicio.</li>
+<li><a href="https://santiamm1.github.io/energe-site/index.html">Inicio</a>: Página de inicio.</li>
 
 <li><a href="https://santiamm1.github.io/energe-site/pages/Nosotros.html">Nosotros</a>: Página que hace referencia a los integrantes de la empresa como así también la historia de la misma.</li>
 
